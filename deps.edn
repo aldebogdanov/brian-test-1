@@ -2,4 +2,6 @@
 
  :deps {org.clojure/clojure   {:mvn/version "1.12.0"}
         com.hyperfiddle/rcf   {:mvn/version "20220926-202227"}
-        metosin/malli         {:mvn/version "0.16.4"}}}
+        metosin/malli         {:mvn/version "0.16.4"}}
+
+ :aliases {:test {:jvm-opts ["-Dhyperfiddle.rcf.generate-tests=true"]}}}
